@@ -6,7 +6,7 @@ app.use(express.json());
 
 
 
-app.get('/get',()=>{
+app.get('/get',(req,res)=>{
     return res.json({message:'It is working fine'})
 })
 
