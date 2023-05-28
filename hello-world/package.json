@@ -13,7 +13,8 @@
 
   },
   "scripts": {
-    "test": "mocha tests/unit/"
+    "test": "mocha tests/unit/",
+    "start": "nodemon app.js"
   },
   "devDependencies": {
   

@@ -2,12 +2,13 @@ const express = require('express');
 const app = express();
 const serverless = require('serverless-http');
 const port = 5000;
+
 app.use(express.json());
 
 
 
 app.get('/get',(req,res)=>{
-    return res.json({message:'It is working fine'})
+    return res.json({message:'It is working good'})
 })
 
 
